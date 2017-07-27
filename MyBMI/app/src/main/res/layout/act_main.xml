@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:background="#BFB"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="          BMI理想體重計算器"
+        android:textSize="30dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+            android:id="@+id/lblheight"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="身高"
+            android:textSize="30dp" />
+
+        <EditText
+            android:textSize="30dp"
+            android:id="@+id/eth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <TextView
+            android:id="@+id/lblweight"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="體重"
+            android:textSize="30dp" />
+
+        <EditText
+            android:textSize="30dp"
+            android:id="@+id/etw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/btnSend"
+        android:textSize="35dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="送出"
+        />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI值: "
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lblresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="診斷: "
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lbldiagnosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
